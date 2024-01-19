@@ -1,0 +1,124 @@
+/* Réinitialisation des marges navigateurs*/
+* {
+    margin: 0;
+}
+/* Mise en forme Entête et Pied de page sur l'ensemble du site*/
+header, footer {
+    background-color: white;
+    padding: 20px 40px;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+    margin-left: 30px;
+  }
+
+a {
+    color: #242424;
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.logo {
+    margin-left: 30px;
+}
+.logo:hover {
+    opacity: 0.5;
+}
+
+
+/* Effets généraux sur les "body" du site*/
+
+
+body {
+    background-color: #1F2039;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+p, li {
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+h2 {
+    color: #F9F8FF;
+}
+em {
+    font-style: normal;
+    color: #a5b4fc;
+}
+section {
+  padding: 100px;
+}
+
+/* Effets généraux sur les boutons du site*/
+.cta {
+    display: inline-block;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: #F9F8FF;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+.cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 996px) {
+    header nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    header nav img {
+      margin-bottom: 20px;
+    }
+  
+    header,
+    footer {
+      padding: 20px 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    section {
+      padding: 50px 20px 50px 20px;
+    }
+  
+    nav a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+
+/* Agencement "Présentation" 1 page d'Accueil*/
+.accueil-intro {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: auto;
+}
+.accueil-intro h1 {
+    margin-bottom: 15px;
+}
+.accueil-intro p {
+    margin-bottom: 30px;;
+}
+.accueil-intro div {
+    padding-right: 80px;
+}
+
+
+/* Agencement "Mon dernier Projet", page d'Accueil*/
+.accueil-photos {
+    background-color: #F9F8FF;
+    padding: 80px;
+}
+.accueil-photos h2 {
+    color: #1F2039;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center; 
+    margin-bottom: 15px; 
+}
+
+
+/*Agencement formulaire*/
+.section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+label {
+    margin-bottom: 10px;
+  }
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+textarea {
+    padding: 60px;
+    border-radius: 5px;
+    border: none;
+  }
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  /*Media Queries*/
+  @media screen and (max-width: 996px) {
+    .accueil-intro {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .accueil-intro div {
+      padding-right: 0;
+      text-align: center;
+      order: 2;
+    }
+  
+    .accueil-intro img {
+      order: 1;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  
+    .accueil-photos {
+      padding: 20px;
+    }
+  
+    .accueil-photos div {
+      flex-direction: column;
+    }
+  
+    .section-contact {
+      padding: 50px 20px;
+    }
+  
+    .formulaire {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+

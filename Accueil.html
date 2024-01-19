@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Partie qui ne se voit pas sur la page Web, contenant le titre de l'onglet, les Typos, l'encodage-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/style1.css">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+        <!--Entête de la page avec Logo et lien vers les pages "À propos" et "Portfolio", en Menu-->
+        <header>
+            <nav>
+            <a href="Accueil.html">
+            <img src="images/logo.png" alt="logo" title="logo" class="logo"></a> 
+    
+            <div><a href="Accueil.html">Accueil</a>
+            <a href="À propos.html">À propos</a>
+            <a href="Portfolio.html">Portfolio</a></div>
+            </nav>
+        </header>
+       
+        <!--Partie principale de la page, découpée en 3 sections-->
+    <main>    
+            <section class="accueil-intro">
+                <div><h1>Robbie Lens Photographie</h1>
+                <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.
+                </p>
+                <a href="#ancre" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                </div>
+
+                <img src="images/robbie-lens.png" alt="ma photo de profil" title="ma photo de profil">
+            </section>
+            
+            <section class="accueil-photos">
+                <h2 class="titre">Mon dernier projet</h2>
+
+                <div>
+                    <img src="images/1.png" alt="falaise et mer">
+                    <img src="images/2.png" alt="lac fumant">
+                    <img src="images/3.png" alt="plage"></div>
+                
+
+                <div>
+                    <img src="images/4.png" alt="ponton sur un lac">
+                    <img src="images/5.png" alt="montagnes sur le lac">
+                    <img src="images/6.png" alt="paysage et lac">
+                </div>
+            </section>
+
+            <section id="ancre" class="section-contact">    
+            <h2>Parlons de votre projet</h2>  
+            <form method="get" action="">
+                <div class="formulaire">
+                        <div class="form-column"><label for="nom">Nom</label> <input type="text" name="nom" id="nom"></div>
+                        <div class="form-column"><label for="email">Email</label> <input type="email" name="email" id="email"></div>
+                </div>
+                    
+                    <label for="message">Message</label> 
+                    <textarea name="message" id="message"></textarea>
+                    
+                    <input type="submit" value="ENVOYER" class="cta">
+                
+                </form>
+            </section>
+
+    </main>
+
+    <!--Pied de page contenant le menu des liens-->
+    <footer>
+        <a href="Accueil.html" class="logo">
+        <img src="images/logo.png" alt="Logo Robbie Lens"></a>
+
+        <div><a target="_blank" href="https://twitter.com/" class="logo">
+        <img src="images/twitter.png" alt="Logo Twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/" class="logo">
+        <img src="images/instagram.png" alt="Logo Instagram"></a>
+        </div>
+    </footer>
+
+</body>       
+
+</html>
